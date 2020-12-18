@@ -1,0 +1,121 @@
+@charset "UTF-8";
+@import url(common.css);
+
+#container { width: 100%; }
+/* 서브메뉴 */
+#historySnbWrap { width: 100%; background-color: #636363; height: 60px; }
+#historySnb { width: 1200px; margin: 0 auto; }
+#historySnb ul { width: 200px; overflow: hidden; margin: 0 auto; }
+#historySnb ul li { float: left; line-height: 60px; }
+#historySnb ul li:first-of-type { margin-right: 67px; }
+#historySnb ul li a { color: #fff; letter-spacing: -0.04em; font-weight: 300; font-size: 14px; }
+
+/* 최상단부 */
+#history_QuoteWrap { width: 100%; height: 38.375em; background: url(../images/HistoryQuoteBg.png) no-repeat center bottom / cover fixed;  }
+#history_Quote { width: 1200px; margin: 0 auto; text-align: center; color: #fff; padding-top: 81px; box-sizing: border-box; }
+#history_Quote h3 { font-family: 'jost', sans-serif; font-size: 25px; font-weight: 300; letter-spacing: -0.04em; position: relative; width: 214px; text-align: left; margin: 0 auto; }
+.history_Quote_history { text-transform: uppercase; }
+.history_Quote_Gillette { text-indent: -9999px; display: block; background: url(../images/HistoryTitle.png) no-repeat center center; width: 92px; height: 24px; position: absolute; top: 3px; left: 122px; }
+#history_Quote h3::before { content: ""; width: 40px; position: absolute; border-top: 3px solid #fff; left: calc(50% - 20px); top: 44px; }
+#history_Quote blockquote { padding-top: 207px; background: url(../images/HistoryPhoto.png) no-repeat center 61px; }
+.history_Quote_Bg::before { content: ""; width: 845px; height: 14px; display: block; position: relative; top: 35px; left: 185px; background: #0e3b9f;}
+#history_Quote blockquote div p { font-family: 'jost', sans-serif; color: #fff; font-size: 28px; font-weight: 600; letter-spacing: -0.04em; position: relative; }
+#history_Quote blockquote > p { font-weight: 200; font-size: 16px; letter-spacing: -0.04em; margin-top: 8px; }
+#history_Quote blockquote > p span { display: block; text-indent: -9999px; width: 161px; height: 41px; background: url(../images/HistorySignature.png) no-repeat center center; margin: 54px auto 0; }
+
+/* 정밀성에 대한 관점 */
+#history_Precision { width: 100%; height: 699px; background: url(../images/HistoryArticle1.png) no-repeat center center / cover; padding-top: 188px; box-sizing: border-box; }
+#history_PrecisionWrap { width: 1200px; margin: 0 auto; }
+#history_PrecisionWrap hgroup { text-align: center; position: relative; }
+#history_PrecisionWrap hgroup h4 { font-weight: 700; font-size: 30px; letter-spacing: -0.02em; }
+#history_PrecisionWrap hgroup h5 { font-family: 'jost', sans-serif; color: #a65e4c; font-weight: 700; font-size: 18px; letter-spacing: -0.08em; text-transform: uppercase; position: absolute; left: calc(50% - 40.133px); top: -35px; }
+.history_Precision_Contents { width: 999px; margin: 0 auto; text-align: justify; text-justify: inter-word; letter-spacing: -0.02em; color: #333; font-size: 16px; font-weight: 400; line-height: 26.01px; margin-top: 54px; }
+/* 텍스트 단어 간격 조정 */
+#history_PrecisionWrap p:nth-of-type(1) span:nth-of-type(1) { word-spacing: 5.5px; }
+#history_PrecisionWrap p:nth-of-type(1) span:nth-of-type(2) { word-spacing: -0.5px; }
+
+#history_PrecisionWrap p:nth-of-type(2) span:nth-of-type(1) { word-spacing: 2px; }
+#history_PrecisionWrap p:nth-of-type(2) span:nth-of-type(2) { word-spacing: 0px; }
+
+#history_PrecisionWrap p:nth-of-type(3) span:nth-of-type(1) { word-spacing: -1px; }
+
+ /* 질레트 혁신의 변천사 */
+ /* 전체 배경 */
+#history_Innovation { width: 100%; padding: 83px 0 198px 0; /* background: url(../images/HistoryArticle2-3.png) no-repeat center bottom / 100% 1276px, url(../images/HistoryArticle2.png) no-repeat center 300px / cover;*/
+background: url(../images/HistoryArticle2-2.png) no-repeat center top / 100% 995px, url(../images/HistoryArticle2-3.png) no-repeat center bottom / 100% 1276px, url(../images/HistoryArticle2-1.png) center center fixed;
+}
+#history_InnovationWrap { width: 1200px; margin: 0 auto; text-align: center; position: relative; }
+#history_InnovationWrap hgroup { text-align: center; position: relative; margin-bottom: 386px; }
+#history_InnovationWrap hgroup h4 { font-weight: 700; font-size: 30px; letter-spacing: -0.02em; }
+#history_InnovationWrap hgroup h5 { font-family: 'jost', sans-serif; color: #a65e4c; font-weight: 700; font-size: 18px; letter-spacing: -0.08em; text-transform: uppercase; position: absolute; left: calc(50% - 41.461px); top: -35px; }
+/* 상단부 공통 */
+#historyUl_Wrap { width: 100%; overflow: hidden; position: absolute; top: 103px; left: 0; }
+#historyUl_Wrap ul { width: 1200px; margin: 0 auto; overflow: hidden; padding: 10px 0 58px 0; }
+#historyUl_Wrap ul li { float: left; width: 70px; height: 240px; margin: 0 15px; position: relative; }
+#historyUl_Wrap ul li a { font-weight: 400; font-size: 14px; color: #696969; letter-spacing: -0.02em; display: block; width: 70px; height: 236px; transition: 0.2s; }
+#historyUl_Wrap ul li a:hover { color: #333; font-weight: 500; }
+#historyUl_Wrap ul li:hover { animation-name: his_inno; animation-direction: normal; animation-fill-mode: forwards;  animation-timing-function: linear; animation-duration: 0.2s; }
+@keyframes his_inno {
+  100% { background-position: center 35px; }
+
+}
+#historyUl_Wrap ul li.fixed a::before { content: ""; width: 70px; height: 209px; background-color: #fff; position: absolute; top: 20px; left: 0; opacity: 0.7; transition: 0.2s; }
+#historyUl_Wrap ul li.fixed:hover a::before { opacity: 0;}
+/* 상단부 개별 */
+#historyUl_Wrap ul li:nth-of-type(1) { background: url(../images/HistoryUl1.png) no-repeat center 31px; }
+#historyUl_Wrap ul li:nth-of-type(2) { background: url(../images/HistoryUl2.png) no-repeat center 31px; }
+#historyUl_Wrap ul li:nth-of-type(3) { background: url(../images/HistoryUl3.png) no-repeat center 31px; }
+#historyUl_Wrap ul li:nth-of-type(4) { background: url(../images/HistoryUl4.png) no-repeat center 31px; }
+#historyUl_Wrap ul li:nth-of-type(5) { background: url(../images/HistoryUl5.png) no-repeat center 31px; }
+#historyUl_Wrap ul li:nth-of-type(6) { background: url(../images/HistoryUl6.png) no-repeat center 31px; }
+#historyUl_Wrap ul li:nth-of-type(7) { background: url(../images/HistoryUl7.png) no-repeat center 31px; }
+#historyUl_Wrap ul li:nth-of-type(8) { background: url(../images/HistoryUl8.png) no-repeat center 31px; }
+#historyUl_Wrap ul li:nth-of-type(9) { background: url(../images/HistoryUl9.png) no-repeat center 31px; }
+#historyUl_Wrap ul li:nth-of-type(10) { background: url(../images/HistoryUl10.png) no-repeat center 31px; }
+#historyUl_Wrap ul li:nth-of-type(11) { background: url(../images/HistoryUl11.png) no-repeat center 31px; }
+#historyUl_Wrap ul li:nth-of-type(12) { background: url(../images/HistoryUl12.png) no-repeat center 31px; }
+/* 하단부 공통 */
+#history_InnovationWrap dl { background-color: #fff !important; width: 1170px; height: 348px; margin-bottom: 20px; text-align: left; padding: 50px 98px; box-sizing: border-box; color: #333; }
+#history_InnovationWrap dl dt { font-family: 'jost', sans-serif; font-weight: 400; font-size: 50px; color: #0f48c9; letter-spacing: -0.02em; }
+#history_InnovationWrap dl dd:nth-of-type(1) { font-weight: 600; font-size: 25px; letter-spacing: -0.02em; margin-top: -11px; }
+#history_InnovationWrap dl dd:nth-of-type(1) span { font-family: 'jost', sans-serif; font-weight: 400; font-size: 20px; letter-spacing: -0.02em; text-transform: uppercase; }
+#history_InnovationWrap dl dd:nth-of-type(2) { width: 559px; text-align: justify; line-height: 26.01px; margin: 30px 0 0 3px; word-break: keep-all; }
+/* 하단부 홀수 공통 */
+#history_InnovationWrap dl.even dt { margin-left: 409px; }
+#history_InnovationWrap dl.even dd:nth-of-type(1) { margin-left: 409px; }
+#history_InnovationWrap dl.even dd:nth-of-type(2) { margin-left: 409px; }
+/* 하단부 개별 */
+#history_InnovationWrap dl:nth-of-type(1) { background: url(../images/HistoryDetail1.png) no-repeat 728px bottom; }
+#history_InnovationWrap dl:nth-of-type(2) { background: url(../images/HistoryDetail2.png) no-repeat 86px 116px; }
+#history_InnovationWrap dl:nth-of-type(3) { background: url(../images/HistoryDetail3.png) no-repeat 734px 32px; }
+#history_InnovationWrap dl:nth-of-type(4) { background: url(../images/HistoryDetail4.png) no-repeat 172px bottom; }
+#history_InnovationWrap dl:nth-of-type(5) { background: url(../images/HistoryDetail5.png) no-repeat right 88px; }
+#history_InnovationWrap dl:nth-of-type(6) { background: url(../images/HistoryDetail6.png) no-repeat 138px bottom; }
+#history_InnovationWrap dl:nth-of-type(7) { background: url(../images/HistoryDetail7.png) no-repeat 770px bottom; }
+#history_InnovationWrap dl:nth-of-type(8) { background: url(../images/HistoryDetail8.png) no-repeat 124px bottom; }
+#history_InnovationWrap dl:nth-of-type(9) { background: url(../images/HistoryDetail9.png) no-repeat 782px bottom; }
+#history_InnovationWrap dl:nth-of-type(10) { background: url(../images/HistoryDetail10.png) no-repeat 75px bottom; }
+#history_InnovationWrap dl:nth-of-type(11) { background: url(../images/HistoryDetail11.png) no-repeat 735px bottom; }
+#history_InnovationWrap dl:nth-of-type(12) { background: url(../images/HistoryDetail12.png) no-repeat 114px bottom; }
+
+/* 최하단 */
+.history_Quote_Bg2::before { content: ""; width: 295px; height: 14px; display: block; position: relative; top: 164px; left: 459px; background: #0e3b9f;}
+#history_InnovationWrap div p { font-family: 'jost' ,sans-serif; font-weight: 600; color: #fff; font-size: 28px; letter-spacing: -0.04em; margin: 129px 0 9px 0; position: relative; }
+#history_InnovationWrap > p { font-weight: 200; color: #fff; font-size: 16px; letter-spacing: -0.04em; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#a {}

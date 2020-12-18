@@ -1,0 +1,146 @@
+@charset "UTF-8";
+@import url(common.css);
+
+/* fusion5 페이지 */
+#container1 { width: 100%; }
+#subWrap { width: 1200px; margin: 0 auto; position: relative; }
+#indicator { float: right; margin: 17px 15px 0 0; }
+#indicator a { float: left; }
+#indicator a:not(.lastPg) { color: #696969; font-weight: 400; position: relative; }
+#indicator a:not(.lastPg)::after { content: ""; position: absolute; background: url(../images/indicator.png) no-repeat center center; width: 6px; height: 10px; top: 4px; right: -12px; }
+#indicator a.firstPg { font-size: 14px; }
+#indicator a:not(.firstPg) { font-size: 12px; margin-top: 1.5px; margin-left: 20px; }
+#indicator a.lastPg { color: #000; font-weight: 400; }
+
+#productSnbWrap { width: 270px; position: absolute; top: 78px; left: 15px; }
+#productSnb { width: 270px; position: sticky; top: 40px; left: 0; border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; }
+.shaver_Classify { border-bottom: 1px solid #ccc; overflow: hidden; padding: 14px 41px; }
+.shaver_Classify a { font-size: 12px; color: #696969; display: block; width: 89px; height: 25px; line-height: 23px; float: left; text-align: center; border-radius: 10px; border: 1px solid #ddd; box-sizing: border-box; font-weight: 400; position: relative; transition: 0.2s; }
+.shaver_Classify a:nth-of-type(1) { margin-right: 10px; }
+.shaver_Classify a:hover { border: 1px solid #333; }
+
+.shaver_Classify a.classifyOn { color: #000; border: 1px solid #333; }
+.shaver_Classify a.classifyOn span { display: block; width: 7px; height: 7px; background: url(../images/shaver_classify.png) no-repeat center center; position: absolute; top: 7px; right: 8px; cursor: pointer; }
+
+#productSnb > ul { padding: 26px 0 26px 46px; }
+#productSnb > ul > li { margin-bottom: 32px; }
+#productSnb > ul > li:last-of-type { margin-bottom: 0; }
+#productSnb > ul > li > a { font-size: 16px; letter-spacing: -0.02em; color: #696969; font-weight: 400; transition: 0.2s; }
+#productSnb > ul > li > a:hover { color: #999; }
+#productSnb > ul > li:nth-of-type(2) > a { font-weight: 500; color: #153ea7; }
+#productSnb > ul > li:nth-of-type(2) > ul { padding: 14px 0 0 30px; }
+#productSnb > ul > li:nth-of-type(2) > ul > li { margin-bottom: 10px; }
+#productSnb > ul > li:nth-of-type(2) > ul > li > a { font-size: 13px; font-weight: 400; color: #333; transition: 0.2s; }
+#productSnb > ul > li:nth-of-type(2) > ul > li > a:hover { color: #999; }
+
+#contents_fusion5 { width: 55.3125rem; margin-left: 19.6875rem; padding-top: 2.375rem; overflow: auto; margin-bottom: 200px; }
+#selectbox { -webkit-appearance: none; -moz-appearance: none; appearance: none;  border-radius: 0px; border: 0px; font-weight: 400; color: #696969; font-size: 12px; width: 85px; height: 20px; background: url(../images/fusion5_selectbox.png) no-repeat 69px center; text-indent: 5px; font-family: 'S-CoreDream', sans-serif; letter-spacing: 0; margin-left: 4px; margin-bottom: 16px; cursor: pointer; }
+
+#contents_fusion5 a dl { width: 280px; height: 500px; float: left; margin: 0 15px 20px 0; box-shadow: 0px 8px 13px 0px rgba(0, 0, 0, 0.12); text-align: center; padding-top: 293px; box-sizing: border-box; }
+#contents_fusion5 a dl dt { color: #000; font-size: 16px; font-weight: 500; letter-spacing: -0.02em; }
+#contents_fusion5 a dl dd:nth-of-type(1) { color: #696969; font-size: 12px; font-weight: 300; letter-spacing: -0.02em; margin-top: 10px; }
+#contents_fusion5 a dl dd:nth-of-type(2) { width: 147px; height: 51px; border-radius: 25.5px; background-color: #12145e; line-height: 51px; color: #fff; margin: 0 auto; font-size: 16px; font-weight: 500; letter-spacing: -0.02em; margin-top: 35px; overflow: hidden; }
+#contents_fusion5 a dl dd:nth-of-type(2) > span > span { font-size: 14px; letter-spacing: -0.04em; font-weight: 400; }
+
+
+#contents_fusion5 a:nth-of-type(1) dl { background: #f8f8f8 url(../images/product_fusion5_1.png) no-repeat center 61px / 115px; }
+#contents_fusion5 a:nth-of-type(2) dl { background: #f8f8f8 url(../images/product_fusion5_2.png) no-repeat center 61px / 159px; }
+#contents_fusion5 a:nth-of-type(3) dl { background: #f8f8f8 url(../images/product_fusion5_3.png) no-repeat center 79px / 160px; }
+#contents_fusion5 a:nth-of-type(4) dl { background: #f8f8f8 url(../images/product_fusion5_4.png) no-repeat center 79px / 133px; }
+#contents_fusion5 a:nth-of-type(5) dl { background: #f8f8f8 url(../images/product_fusion5_5.png) no-repeat center 61px / 124px ; }
+#contents_fusion5 a:nth-of-type(6) dl { background: #f8f8f8 url(../images/product_fusion5_6.png) no-repeat center 61px / 163px; }
+#contents_fusion5 a:nth-of-type(7) dl { background: #f8f8f8 url(../images/product_fusion5_7.png) no-repeat center 84px / 160px; }
+#contents_fusion5 a:nth-of-type(8) dl { background: #f8f8f8 url(../images/product_fusion5_8.png) no-repeat center 79px / 134px; }
+#contents_fusion5 a:nth-of-type(9) dl { background: #f8f8f8 url(../images/product_fusion5_9.png) no-repeat center 61px / 124px; }
+#contents_fusion5 a:nth-of-type(10) dl { background: #f8f8f8 url(../images/product_fusion5_10.png) no-repeat center 61px / 152px; }
+#contents_fusion5 a:nth-of-type(11) dl { background: #f8f8f8 url(../images/product_fusion5_11.png) no-repeat center 80px / 160px; }
+#contents_fusion5 a:nth-of-type(12) dl { background: #f8f8f8 url(../images/product_fusion5_12.png) no-repeat center 79px / 134px; }
+#contents_fusion5 a:nth-of-type(13) dl { background: #f8f8f8 url(../images/product_fusion5_13.png) no-repeat center 61px / 165px; }
+#contents_fusion5 a:nth-of-type(14) dl { background: #f8f8f8 url(../images/product_fusion5_14.png) no-repeat center 79px / 160px; }
+#contents_fusion5 a:nth-of-type(15) dl { background: #f8f8f8 url(../images/product_fusion5_15.png) no-repeat center 79px / 133px; }
+
+
+
+/* faq페이지 */
+#container2 { width: 100%; overflow: auto; }
+#faq_indicatorWrap { width: 1200px; margin: 0 auto; }
+
+#contents_faq { width: 100%; }
+#contents_faq { margin-top: 143px; }
+
+#faq_h3Wrap { width: 1200px; margin: 0 auto; }
+#faq_h3Wrap h3 { font-size: 16px; font-weight: 400; color: #6e6e6e; text-align: center; }
+#faq_h3Wrap h3 span { font-family: "jost", sans-serif; font-weight: 800; font-size: 50px; letter-spacing: -0.04em; color: #222; line-height: 50px; }
+
+#faq_contact { width: 100%; height: 304px; background: #f8f8f8; border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; margin-top: 56px; }
+#faq_contactWrap { width: 1200px; margin: 0 auto; }
+#faq_contactWrap > p { text-align: center; font-size: 18px; font-weight: 500; color: #222; margin-top: 34px; position: relative; }
+#faq_contactWrap > p:after { content: ""; width: 24px; border-top: 1px solid #333; position: absolute; left: calc(50% - 12px); top: 49px; }
+.faq_contact_list { width: 357.5px; height: 122px; margin: 78px auto 0; overflow: hidden; }
+.faq_contact_call { float: left; text-align: center; font-size: 14px; color: #222; padding-top: 46px; background: url(../images/Faq_contact1.png) no-repeat center top; }
+.faq_contact_call p:nth-of-type(1) { font-weight: 500; }
+.faq_contact_call address { font-weight: 300; margin-top: 13px; }
+.faq_contact_call p:last-of-type { font-weight: 300; margin-top: 6px; }
+.faq_contact_oto { float: left; text-align: center; padding-top: 44px; margin: 2px 0 0 111px; background: url(../images/Faq_contact2.png) no-repeat center top; }
+.faq_contact_oto p { font-size: 14px; font-weight: 500; color: #222; }
+.faq_contact_oto a { display: block; width: 91px; height: 37px; border: 1px solid #222; text-align: center; line-height: 37px; color: #222; font-size: 12px; font-weight: 300; margin-top: 16px; transition: 0.2s; }
+.faq_contact_oto a:hover { background-color: #222; color: #fff; }
+
+#faq_question { width: 1200px; margin: 50px auto 200px;  }
+#faq_question dl { width: 1030px; height: 70px; margin: 0 auto; border-bottom: 1px solid #ccc; height: max-content; }
+#faq_question dl dt { line-height: 70px; }
+#faq_question dl dt a { display: block; width: 1030px; height: 70px; font-size: 16px; font-weight: 300; color: #222; padding-left: 29px; box-sizing: border-box; }
+#faq_question dl dt a span { display: block; width: 16px; height: 9px; float: right; background: url(../images/Faq_question1.png) no-repeat center center; margin: 31px 13px 0 0; }
+#faq_question dl dd { margin-bottom: 51px; overflow: auto; display: none; }
+#faq_question dl dd div.faq_quesA { font-family: "jost", sans-serif; font-weight: 800; font-size: 20px; color: #12145e; margin-left: 50px; float: left; margin-top: 16px; }
+#faq_question dl dd div.faq_answer { font-weight: 400; font-size: 14px; color: #222; margin-top: 19px; margin-left: 9px; width: 884px; float: left; line-height: 25.8px; text-align: justify; word-break: keep-all; }
+
+#faq_question dl:nth-of-type(1) dd div.faq_answer_add { clear: both; font-size: 13px; font-weight: 400; color: #222; line-height: 25.8px; width: 770px; height: 129px; background: #f8f8f8; box-sizing: border-box; padding: 27px 0 0 108px; margin: 92px auto 0; }
+#faq_question dl:nth-of-type(1) dd div.faq_answer_add span { font-weight: 500; }
+
+/* shavingtip 페이지 */
+#shavingSnbWrap { width: 100%; background-color: #636363; height: 60px; }
+#shavingSnb { width: 1200px; margin: 0 auto; }
+#shavingSnb ul { margin: 0 auto; width: max-content; }
+#shavingSnb ul li { float: left; line-height: 60px; margin-right: 67px; }
+#shavingSnb ul li:last-of-type { margin-right: 0; }
+#shavingSnb ul li a { color: #fff; letter-spacing: -0.04em; font-weight: 300; font-size: 14px; }
+
+#contents_shaving { padding-top: 142px; }
+#contents_shaving h3 { font-size: 16px; font-weight: 400; color: #6e6e6e; text-align: center; }
+#contents_shaving h3 > span { font-family: "jost", sans-serif; font-weight: 800; font-size: 50px; letter-spacing: -0.04em; color: #222; line-height: 50px; text-transform: uppercase; }
+#contents_shaving h3 > span > span { letter-spacing: -0.24em; }
+
+#shaving_list { margin: 76px 0 105px; overflow: hidden; }
+#shaving_list li { width: 570px; height: 230px; float: left; margin: 0 15px; margin-bottom: 95px; position: relative; }
+#shaving_list li a { display: block; }
+#shaving_list li:nth-of-type(1)::after { content: ""; width: 1030px; border-top: 1px solid #dedede; position: absolute; bottom: -47px; left: 85px; }
+#shaving_list li:nth-of-type(3)::after { content: ""; width: 1030px; border-top: 1px solid #dedede; position: absolute; bottom: -47px; left: 85px; }
+#shaving_list li:nth-of-type(5)::after { content: ""; width: 1030px; border-top: 1px solid #dedede; position: absolute; bottom: -47px; left: 85px; }
+#shaving_list li:nth-of-type(7)::after { content: ""; width: 1030px; border-top: 1px solid #dedede; position: absolute; bottom: -47px; left: 85px; }
+#shaving_list li:nth-of-type(9)::after { content: ""; width: 1030px; border-top: 1px solid #dedede; position: absolute; bottom: -47px; left: 85px; }
+
+.shaving_imgbox { width: 228px; height: 228px; border: 1px solid #dedede; overflow: hidden; float: left; position: relative; }
+.shaving_img { width: 230px; height: 230px; transform: scale(1); transition: 0.3s ease-in-out; background-repeat: no-repeat; background-position: center center; background-size: cover; }
+/* .shaving_imgbox::after { content: ""; width: 228px; height: 228px; position: absolute; top: 1px; left: 1px; background: rgba(51, 51, 51, 0); transition: 0.3s ease-in-out; } */
+
+#shaving_tip_1 a div.shaving_imgbox > div.shaving_img { background-image: url(../images/Shaving1.jpg); }
+#shaving_tip_2 a div.shaving_imgbox > div.shaving_img { background-image: url(../images/Shaving2.jpg); }
+#shaving_tip_3 a div.shaving_imgbox > div.shaving_img { background-image: url(../images/Shaving3.jpg); }
+#shaving_tip_4 a div.shaving_imgbox > div.shaving_img { background-image: url(../images/Shaving4.jpg); }
+#shaving_tip_5 a div.shaving_imgbox > div.shaving_img { background-image: url(../images/Shaving5.jpg); }
+#shaving_tip_6 a div.shaving_imgbox > div.shaving_img { background-image: url(../images/Shaving6.jpg); }
+#shaving_tip_7 a div.shaving_imgbox > div.shaving_img { background-image: url(../images/Shaving7.jpg); }
+#shaving_tip_8 a div.shaving_imgbox > div.shaving_img { background-image: url(../images/Shaving8.jpg); }
+#shaving_tip_9 a div.shaving_imgbox > div.shaving_img { background-image: url(../images/Shaving9.jpg); }
+#shaving_tip_10 a div.shaving_imgbox > div.shaving_img { background-image: url(../images/Shaving10.jpg); }
+#shaving_tip_11 a div.shaving_imgbox > div.shaving_img { background-image: url(../images/Shaving11.jpg); }
+#shaving_tip_12 a div.shaving_imgbox > div.shaving_img { background-image: url(../images/Shaving12.jpg); }
+
+#shaving_list li a:hover div.shaving_imgbox > div.shaving_img { transform: scale(1.05); }
+/* #shaving_list li a:hover div.shaving_imgbox::after { background: rgba(51, 51, 51, 0.4); } */
+
+.shaving_textbox { letter-spacing: -0.04em; float: left; margin: 33px 0 0 40px; }
+.shaving_text_En { font-family: "jost", sans-serif; font-weight: 400; color: #12145e; font-size: 14px; }
+.shaving_text_main { font-weight: 500; font-size: 18px; color: #222; margin-top: 19px; }
+.shaving_text_exp { font-weight: 300; font-size: 13px; color: #999; line-height: 22.2px; margin-top: 32px; }

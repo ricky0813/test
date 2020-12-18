@@ -1,0 +1,140 @@
+@charset "UTF-8";
+@font-face {
+     font-family: 'S-CoreDream';
+     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-2ExtraLight.woff') format('woff');
+     font-weight: 200;
+     font-style: normal;
+}
+@font-face {
+     font-family: 'S-CoreDream';
+     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+     font-weight: 300;
+     font-style: normal;
+}
+@font-face {
+     font-family: 'S-CoreDream';
+     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-4Regular.woff') format('woff');
+     font-weight: 400;
+     font-style: normal;
+}
+@font-face {
+     font-family: 'S-CoreDream';
+     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-5Medium.woff') format('woff');
+     font-weight: 500;
+     font-style: normal;
+}
+@font-face {
+     font-family: 'S-CoreDream';
+     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-6Bold.woff') format('woff');
+     font-weight: 600;
+     font-style: normal;
+}
+@font-face {
+     font-family: 'S-CoreDream';
+     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-8Heavy.woff') format('woff');
+     font-weight: 800;
+     font-style: normal;
+}
+@font-face { font-family: jost; src: url(../fonts/Jost-800-Heavy.ttf); font-weight: 800;}
+@font-face { font-family: jost; src: url(../fonts/Jost-700-Bold.ttf); font-weight: 700;}
+@font-face { font-family: jost; src: url(../fonts/Jost-600-Semi.ttf); font-weight: 600;}
+@font-face { font-family: jost; src: url(../fonts/Jost-500-Medium.ttf); font-weight: 500;}
+@font-face { font-family: jost; src: url(../fonts/Jost-400-Book.ttf); font-weight: 400;}
+@font-face { font-family: jost; src: url(../fonts/Jost-300-Light.ttf); font-weight: 300;}
+
+
+/* 초기화 */
+body, h1, h2, h3, h4, h5, p, ul, li, dl, dd, dt, blockquote { margin: 0; padding: 0; }
+li { list-style: none; }
+a { text-decoration: none; }
+address { font-style: normal; }
+small { font-size: 1em; }
+.hidden  { position: absolute; left: -9999px}
+body { width: 100%; min-width: 1200px; }
+
+/* 폰트 */
+body { font-family: 'S-CoreDream', sans-serif; }
+
+/* 헤더 */
+#header { width: 100%; z-index: 999; border-bottom: 1px solid #ddd; background-color: #fff; position: relative; }
+#headerWrap { width: 1200px; height: 100px; margin: 0 auto; }
+#headerWrap h1 { margin-left: 15px; float: left; margin-top: 32px; }
+#headerWrap h1 a { display: block; width: 150px; height: 38px; text-indent: -9999px; background: url(../images/headerLogo.png) no-repeat center center; }
+
+/* gnb */
+#gnb { float: left; margin-left: 112px; margin-top: 38px; }
+#gnb > ul > li { float: left; margin: 0 22px; }
+#gnb > ul > li > a { color: #333; font-weight: 400; font-size: 16px;  }
+/* lnb */
+.lnbWrap { width: 100%; background: #fff; position: absolute; top: 101px; left: 0; border-bottom: 1px solid #ddd; }
+/* lnb-1 */
+.lnbWrap1 { height: 0; opacity: 0; display: none; }
+.lnb1 { height: 242px; width: 970px; margin: 0 auto; }
+.lnb1 li { float: left; text-align: center; width: 170px; height: 202px; margin: 40px 30px 0 0; transition: 0.3s; }
+.lnb1 li a { font-size: 14px; font-weight: 400; color: #333; padding-top: 126px; box-sizing: border-box; display: block; }
+.lnb1 li a span { font-size: 10px; display: block; }
+.lnb1 li:nth-of-type(1) { background: url(../images/lnb1.png) no-repeat top center; }
+.lnb1 li:nth-of-type(1):hover { background-image: url(../images/lnb1_hover.png); }
+.lnb1 li:nth-of-type(2) { background: url(../images/lnb2.png) no-repeat top center; }
+.lnb1 li:nth-of-type(2):hover { background-image: url(../images/lnb2_hover.png); }
+.lnb1 li:nth-of-type(2) a span:nth-of-type(2){ font-size: 12px; font-weight: ; letter-spacing: -0.06em; margin-top: -13px;}
+.lnb1 li:nth-of-type(3) { background: url(../images/lnb3.png) no-repeat top center; }
+.lnb1 li:nth-of-type(3):hover { background-image: url(../images/lnb3_hover.png); }
+.lnb1 li:nth-of-type(4) { background: url(../images/lnb4.png) no-repeat top center; }
+.lnb1 li:nth-of-type(4):hover { background-image: url(../images/lnb4_hover.png); }
+.lnb1 li:nth-of-type(5) { background: url(../images/lnb5.png) no-repeat top center; margin-right: 0; }
+.lnb1 li:nth-of-type(5):hover { background-image: url(../images/lnb5_hover.png); }
+/* lnb-4 */
+.lnbWrap4 { height: 0px; opacity: 0; display: none; }
+.lnb4 { height: 59px; width: 333.844px; }
+.lnb4 li { float: left; line-height: 59px; margin-right: 38px; }
+.lnb4 li:nth-of-type(4) { margin-right: 0; }
+.lnb4 li a { font-size: 14px; font-weight: 400; color: #333; display: block; }
+/* lnb-5 */
+.lnbWrap5 { height: 0px; opacity: 0; display: none; }
+.lnb5 { height: 59px; width: 182.922px; }
+.lnb5 li { float: left; line-height: 59px; margin-right: 38px; }
+.lnb5 li:nth-of-type(2) { margin-right: 0; }
+.lnb5 li a { font-size: 14px; font-weight: 400; color: #333; display: block; }
+/* lnb-6 */
+.lnbWrap6 { height: 0px; opacity: 0; display: none; }
+.lnb6 { height: 59px; margin: 0; width: 88.8px; position: absolute; }
+.lnb6 li { line-height: 59px; float: left; }
+.lnb6 li a { font-size: 14px; font-weight: 400; color: #333; display: block; }
+
+
+/* snb */
+#snb { float: right; margin-right: 30px; }
+#snb ul li { float: left; position: relative; margin: 38px 0 0 15px; }
+#snb ul li a { display: block; text-indent: -9999px; overflow: hidden; }
+#snb ul li a.snbClub { width: 80px; height: 12px; background: url(../images/snbClubLogo.png) no-repeat center center; margin-top: 7px; }
+#snb ul li a.snbLog { width: 23px; height: 23px; background: url(../images/snbLogin.png) no-repeat center center; }
+#snb ul li a.snbCart { width: 23px; height: 23px; background: url(../images/snbCart.png) no-repeat center center; }
+#snb ul li a.snbCart + span { position: absolute; top: 1px; left: 18px; width: 20px; height: 20px; border-radius: 10px; background: #002e75; color: #fff; font-size: 15px; font-weight: 300; text-align: center; line-height: 20px; }
+
+#floatingBtn ul li { width: 60px; height: 60px; border-radius: 50%; box-shadow: 0px 8px 13px 0px rgba(0, 0, 0, 0.2); }
+#floatingBtn ul li:nth-of-type(1) { background: url(../images/fl_1.png) no-repeat center center; position: fixed; right: 25px; bottom: 90px; z-index: 5; }
+#floatingBtn ul li:nth-of-type(2) { background: #acacac url(../images/fl_2.png) no-repeat center 22px; opacity: 0; position: fixed; right: 25px; bottom: -10px; z-index: 5; display: none; }
+#floatingBtn ul li a { display: block; width: 60px; height: 60px; border-radius: 50%; text-indent: -9999px; overflow: hidden; }
+
+/* 풋터 */
+#footer { clear: both; width: 100%; background: #0c0e42; position: relative; padding-bottom: 48px; }
+#footer::before { content:""; width: calc(100% - 125px); position: absolute; top: 70px; left: calc(50% - (100% - 125px)/2); border-top: 1px solid #939393;}
+#footerWrap { width: auto; max-width: 1200px; margin: 0 auto; }
+/* 풋터 상단 */
+#footerTop { height: 70px; }
+.footerPolicy { float: left; }
+.footerPolicy li { float: left; line-height: 70px; margin: 0 15px; }
+.footerPolicy li a { color: #fff; font-weight: 200; font-size: 16px; }
+.footerSns { float: right; padding-top: 20px; }
+.footerSns li { float: left; }
+.footerSns li a { text-indent: -9999px; overflow: hidden; display: block; }
+.footerSns li.facebook a { width: 16px; height: 31px; background: url(../images/footer_facebook.png) no-repeat center center; margin-right: 28px; }
+.footerSns li.youtube a { width: 34px; height: 24px; background: url(../images/footer_youtube.png) no-repeat center center; padding-top: 4px; margin-right: 15px; }
+/* 풋터 하단 */
+#footerWrap p { color: #fff; font-size: 14px; font-weight: 200; }
+#footerWrap p:nth-of-type(1) { letter-spacing: 0.12em; margin: 87px 0 0 16px; position: relative; }
+#footerWrap p:nth-of-type(1)::after { content: ""; width: 95px; height: 24px; background: url(../images/footer_logo.png) no-repeat center center; position: absolute; top: -39px; left: 0; }
+#footerWrap p:nth-of-type(2) { line-height: 24.01px; margin: 21px 0 0 16px; }
+#footerWrap address { color: #fff; font-size: 14px; font-weight: 200; line-height: 24.01px; margin: 0 0 34px 16px; }
+#footerWrap small { color: #fff; font-size: 14px; font-weight: 200; margin: 0 0 0 16px; }
